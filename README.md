@@ -43,23 +43,7 @@ Location source can be:
 - `zone`: uses a named zone such as `work` or an entity ID such as `zone.work`
 - `coordinates`: uses explicit latitude/longitude
 
-## Brand Images
-
-Home Assistant 2026.3 and newer support local integration brand assets inside:
-
-`custom_components/fuelwatch_ha/brand/`
-
-Add at least:
-
-- `icon.png`
-- `logo.png`
-
-Optional dark-mode variants:
-
-- `icon_dark.png`
-- `logo_dark.png`
-
 ## Development
 
-- Dependency: `fuelwatcher==1.0.0`
+- Utilises the fuelwatcher API https://github.com/danielmichaels/fuelwatcher
 - Integration version: `1.1.0`
