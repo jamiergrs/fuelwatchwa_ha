@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "FuelWatch Setup",
+        "description": "Configure the fuel type, search radius, and location source.",
+        "data": {
+          "name": "Sensor Name",
+          "fuel_type": "Fuel Type",
+          "radius": "Search Radius (km)",
+          "location_mode": "Location Source",
+          "zone_name": "Zone Name or Entity ID",
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      }
+    },
+    "error": {
+      "name_required": "Enter a name for this sensor group.",
+      "zone_required": "Enter a zone name or full zone entity ID.",
+      "latitude_required": "Enter a latitude value.",
+      "latitude_invalid": "Latitude must be a number between -90 and 90.",
+      "longitude_required": "Enter a longitude value.",
+      "longitude_invalid": "Longitude must be a number between -180 and 180."
+    }
+  }
+}
