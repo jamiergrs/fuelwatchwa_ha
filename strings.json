@@ -1,0 +1,14 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "FuelWatch Setup",
+        "description": "Configure fuel type and radius",
+        "data": {
+          "fuel_type": "Fuel Type",
+          "radius": "Search Radius (km) From Home"
+        }
+      }
+    }
+  }
+}
