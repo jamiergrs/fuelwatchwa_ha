@@ -1,4 +1,4 @@
-# FuelWatch WA HA
+# FuelWatch WA for Home Assistant
 
 Custom Home Assistant integration for FuelWatch WA pricing.
 
