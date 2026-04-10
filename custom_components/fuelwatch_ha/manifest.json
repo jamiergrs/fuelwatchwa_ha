@@ -1,7 +1,7 @@
 {
   "domain": "fuelwatch_ha",
   "name": "FuelWatch WA HA",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "documentation": "https://github.com/jamiergrs/fuelwatchwa_ha",
   "issue_tracker": "https://github.com/jamiergrs/fuelwatchwa_ha/issues",
   "requirements": ["fuelwatcher==1.0.0"],

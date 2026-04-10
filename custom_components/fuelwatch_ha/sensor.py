@@ -44,6 +44,10 @@ class FuelWatchSensor(CoordinatorEntity, SensorEntity):
         return f"{self._type.replace('_', ' ').title()} Fuel {self._name_suffix}"
 
     @property
+    def icon(self):
+        return "mdi:gas-station"
+
+    @property
     def suggested_object_id(self):
         return f"{self._type}_fuel_{self._slug}"
 

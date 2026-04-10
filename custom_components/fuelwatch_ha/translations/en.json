@@ -2,21 +2,33 @@
   "config": {
     "step": {
       "user": {
-        "title": "FuelWatch Setup",
-        "description": "Configure the fuel type, search radius, and location source.",
+        "title": "FuelWatch Setup - Step 1",
+        "description": "Choose the location name, fuel type, search radius, and location source.",
         "data": {
-          "name": "Sensor Name",
+          "name": "Location Name",
           "fuel_type": "Fuel Type",
           "radius": "Search Radius (km)",
-          "location_mode": "Location Source",
-          "zone_name": "Zone Name or Entity ID",
+          "location_mode": "Location Source"
+        }
+      },
+      "zone": {
+        "title": "FuelWatch Setup - Step 2",
+        "description": "Enter the Home Assistant zone name or full zone entity ID.",
+        "data": {
+          "zone_name": "Zone Name or Entity ID"
+        }
+      },
+      "coordinates": {
+        "title": "FuelWatch Setup - Step 2",
+        "description": "Enter the coordinates to use for this location.",
+        "data": {
           "latitude": "Latitude",
           "longitude": "Longitude"
         }
       }
     },
     "error": {
-      "name_required": "Enter a name for this sensor group.",
+      "name_required": "Enter a location name.",
       "zone_required": "Enter a zone name or full zone entity ID.",
       "latitude_required": "Enter a latitude value.",
       "latitude_invalid": "Latitude must be a number between -90 and 90.",
