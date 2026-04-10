@@ -46,4 +46,4 @@ Location source can be:
 ## Development
 
 - Utilises the fuelwatcher API https://github.com/danielmichaels/fuelwatcher
-- Integration version: `1.1.0`
+- Integration version: `1.2.0`
